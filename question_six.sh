@@ -2,7 +2,7 @@
 
 file_count ()
 {
-  local count=$(ls|wc -l)
+  local count=$(ls -l|wc -l)
   echo $count
 }
 echo "Number of files: "
